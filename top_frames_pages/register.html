@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Register Page</title>
+		<link rel="stylesheet" href="../CSS/styles.css" />
+		<link rel="stylesheet" href="../CSS/top_frames_pages_css/register.css" />
+	</head>
+	<body>
+		<center>
+			<h2 style="color: blue">Registration Form</h2>
+		</center>
+		<form action="" class="registration-form">
+			<label for="first-name">First Name (Minimum 6 characters)*</label>
+			<input
+				type="text"
+				name="first-name"
+				id="firstNameField"
+				placeholder="Enter first name"
+			/>
+			<br /><br />
+			<label for="last-name">Last Name*</label>
+			<input
+				type="text"
+				name="last-name"
+				id="lastNameField"
+				placeholder="Enter last name"
+			/>
+			<br /><br />
+			<label for="email">Email Address*</label>
+			<input
+				type="email"
+				name="email"
+				id="emailField"
+				placeholder="Enter email"
+			/>
+			<p>(one e-mail id only) e.g. smith@hotmail.com</p>
+			<br />
+			<label for="password">Password (Minimum 6 characters)*</label>
+			<input
+				type="password"
+				name="password"
+				id="passwordField"
+				placeholder="Enter password"
+			/>
+			<br /><br />
+			<label for="address">Address*</label>
+			<textarea
+				name="address"
+				id=""
+				cols="30"
+				rows="3"
+				placeholder="Enter your Address"
+			></textarea>
+			<br /><br />
+			<label for="mobileno">Mobile No*</label>
+			<input
+				type="text"
+				name="mobileno"
+				id=""
+				placeholder="Enter mobile number"
+			/>
+			<br /><br />
+			<label for="gender">Gender*</label>
+			<input type="radio" name="gender" id="" value="Male" />
+			<label for="Male">Male</label>
+			<input type="radio" name="gender" id="" value="Female" />
+			<label for="Male">Female</label>
+			<input type="submit" value="Submit" id="submit-button" />
+			<input type="reset" value="Reset" id="reset-button" />
+		</form>
+	</body>
+</html>

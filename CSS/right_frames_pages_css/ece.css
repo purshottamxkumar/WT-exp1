@@ -1,0 +1,12 @@
+body {
+    background-color: violet;
+}
+
+h1 {
+    padding: 20px;
+}
+
+.main-content {
+    margin-left: 50px;
+    font-size: large;
+}
