@@ -2,8 +2,14 @@ body {
     background-color: rgb(3, 212, 31);
 }
 
+#shooping-img {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 .top-frame-content {
-    margin-top: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
